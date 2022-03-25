@@ -1,9 +1,12 @@
 import './App.css'
+import Header from './components/Header/Header'
+import Site from './components/Site/Site'
 
 function App() {
   return (
-    <div className="App">
-      <h1>This is first assingment of reactjs</h1>
+    <div>
+      <Header></Header>
+      <Site></Site>
     </div>
   )
 }

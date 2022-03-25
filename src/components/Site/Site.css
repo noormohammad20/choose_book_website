@@ -1,0 +1,16 @@
+.site-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.books-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:40px;
+    margin: 80px 40px;
+}
+@media only screen and (max-width: 600px) {
+
+    .books-container{
+        grid-template-columns:repeat(1,1fr) ;
+    }
+}
