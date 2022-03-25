@@ -21,3 +21,9 @@
     align-items: center;
     justify-content: center;
 }
+.cart-btn:hover{
+    background-color: darkorange;
+}
+.text{
+    margin-right: 10px;
+}
