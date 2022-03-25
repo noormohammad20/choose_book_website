@@ -1,0 +1,62 @@
+[
+    {
+        "id": "623ddfa9a93a6166afa7d623",
+        "image": "https://images-eu.ssl-images-amazon.com/images/I/412w7SEE1aL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "name": "A Smarter Way to Learn Javascript",
+        "price": 730
+    },
+    {
+        "id": "623ddfa98e81b01ff77bb7e9",
+        "image": "https://images-eu.ssl-images-amazon.com/images/I/51IKycqTPUL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "name": "Eloquent JavaScript",
+        "price": 1200
+    },
+    {
+        "id": "623ddfa9cdf34a17d112fdc2",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/31SRWF+LkKL._SX258_BO1,204,203,200_.jpg",
+        "name": "JavaScript and JQuery",
+        "price": 1700
+    },
+    {
+        "id": "623ddfa969f04de7f4a9a983",
+        "image": "https://images-eu.ssl-images-amazon.com/images/I/41nG6dzauGL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "name": "Beginning JavaScript ",
+        "price": 2230
+    },
+    {
+        "id": "623ddfa92253beb5458ccb2d",
+        "image": "https://images-eu.ssl-images-amazon.com/images/I/5131OWtQRaL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "name": "Javascript: The Good Parts",
+        "price": 1070
+    },
+    {
+        "id": "623ddfa9ed7d564bc59983a1",
+        "image": "https://m.media-amazon.com/images/I/51H98Em70ZL.jpg",
+        "name": "Learn JavaScript VISUALLY",
+        "price": 2999
+    },
+    {
+        "id": "623ddfa9efd4928cffbef26b",
+        "image": "https://images-eu.ssl-images-amazon.com/images/I/510JjoNTdOL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "name": "JavaScript: The Definitive Guide ",
+        "price": 1520
+    },
+    {
+        "id": "623ddfa9dabc053a68cdc7f5",
+        "image": "https://images-eu.ssl-images-amazon.com/images/I/416VUkOt3QL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "name": "Effective JavaScript",
+        "price": 1000
+    },
+    {
+        "id": "623ddfa962e13fcec9c286a2",
+        "image": "https://images-eu.ssl-images-amazon.com/images/I/51tkiknOtdL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "name": "JavaScript for Kids",
+        "price": 1400
+    },
+    {
+        "id": "623ddfa9cb93dd0d67ff0962",
+        "image": "https://images-eu.ssl-images-amazon.com/images/I/512Hli3f6FL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "name": "Programming JavaScript Applications ",
+        "price": 1335
+    }
+]
