@@ -1,7 +1,9 @@
 .header{
     color: goldenrod;
-    font-size: xx-large;
-    font-weight: bolder;
     text-align: center;
-    
+    margin: 25px;
+    font-size: 50px;
+}
+.header:hover{
+    color:darkorange
 }
