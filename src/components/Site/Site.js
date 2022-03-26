@@ -13,19 +13,26 @@ const Site = () => {
             .then(data => setBooks(data))
     }, [])
 
-    const addToCart = (book) => {
-        const newBook = [...cart, book]
-        setCart(newBook)
-        if (chooseBook) {
-            setChooseBook(false)
-            setCart([])
+    const addToCart = (selectedBook) => {
+        const exists = cart.find(book => book.id === selectedBook.id)
+        if (exists) {
+            alert('You Already Have This Book On Your Cart !!')
         }
-
-
+        else {
+            const newBook = [...cart, selectedBook]
+            setCart(newBook)
+            if (chooseBook) {
+                setChooseBook(false)
+                setCart([])
+            }
+        }
     }
-    const ChooseOneBook = () => {
 
-        setChooseBook(true)
+    const chooseOneBook = () => {
+        let newArr = []
+        const random = Math.floor(Math.random() * cart.length)
+        newArr.push(cart[random])
+        setCart(newArr)
     }
     const resetCart = () => {
         setCart([])
@@ -44,7 +51,7 @@ const Site = () => {
             </div>
             <div className="cart-container">
                 <Cart cart={cart}
-                    chooseOneBook={ChooseOneBook}
+                    chooseOneBook={chooseOneBook}
                     chooseBook={chooseBook}
                     resetCart={resetCart}
                 ></Cart>

@@ -1,3 +1,31 @@
 .cart{
   text-align: center;
 }
+.selected-book{
+  color:darkorange;
+  font-size: 35px;
+}
+.selected-book:hover{
+  color:goldenrod;
+}
+.btn-one{
+  width:75%;
+  height: 45px;
+  background-color: goldenrod;
+  border: 2px solid darkorange;
+  border-radius: 30px;
+  font-size: 15px;
+}
+.btn-one:hover{
+  background-color: darkorange;
+}
+.btn-two{
+  width:50%;
+  height: 45px;
+  background-color: darkorange;
+  border-radius: 25px;
+  font-size: 15px;
+}
+.btn-two:hover{
+  background-color: goldenrod;
+}
