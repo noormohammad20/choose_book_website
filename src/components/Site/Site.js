@@ -4,6 +4,7 @@ import Cart from '../Cart/Cart'
 
 import './Site.css'
 const Site = () => {
+    const [chooseBook, setChooseBook] = useState(false)
     const [books, setBooks] = useState([])
     const [cart, setCart] = useState([])
     useEffect(() => {
@@ -11,9 +12,20 @@ const Site = () => {
             .then(res => res.json())
             .then(data => setBooks(data))
     }, [])
+
     const addToCart = (book) => {
         const newBook = [...cart, book]
         setCart(newBook)
+        if (chooseBook) {
+            setChooseBook(false)
+            setCart([])
+        }
+
+
+    }
+    const ChooseOneBook = () => {
+
+        setChooseBook(true)
     }
     return (
         <div className='site-container'>
@@ -23,11 +35,15 @@ const Site = () => {
                         key={book.id}
                         book={book}
                         addToCart={addToCart}
+
                     ></Book>)
                 }
             </div>
             <div className="cart-container">
-                <Cart cart={cart}></Cart>
+                <Cart cart={cart}
+                    chooseOneBook={ChooseOneBook}
+                    chooseBook={chooseBook}
+                ></Cart>
             </div>
         </div>
     )
