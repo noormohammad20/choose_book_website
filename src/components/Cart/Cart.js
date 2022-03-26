@@ -1,7 +1,7 @@
 import './Cart.css'
-const Cart = ({ cart, chooseOneBook, chooseBook }) => {
+const Cart = ({ cart, chooseOneBook, chooseBook, resetCart }) => {
 
-    console.log(cart)
+
     const newBook = Math.floor(Math.random() * cart.length)
 
 
@@ -17,13 +17,13 @@ const Cart = ({ cart, chooseOneBook, chooseBook }) => {
                 chooseBook &&
                 <h3>
                     {
-                        cart[newBook]?.name
+                        cart[newBook].name
                     }
                 </h3>
             }
             <div>
-                <button onClick={() => chooseOneBook()}>Choose Only One Book</button>
-                <button >Reset Cart</button>
+                <button onClick={chooseOneBook}>Choose Only One Book</button>
+                <button onClick={resetCart}>Reset Cart</button>
             </div>
         </div>
     )

@@ -27,6 +27,9 @@ const Site = () => {
 
         setChooseBook(true)
     }
+    const resetCart = () => {
+        setCart([])
+    }
     return (
         <div className='site-container'>
             <div className="books-container">
@@ -43,6 +46,7 @@ const Site = () => {
                 <Cart cart={cart}
                     chooseOneBook={ChooseOneBook}
                     chooseBook={chooseBook}
+                    resetCart={resetCart}
                 ></Cart>
             </div>
         </div>
