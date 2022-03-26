@@ -17,7 +17,7 @@ const Cart = ({ cart, chooseOneBook, chooseBook, resetCart }) => {
                 chooseBook &&
                 <h3>
                     {
-                        cart[newBook].name
+                        cart[newBook]?.name
                     }
                 </h3>
             }
